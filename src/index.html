@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" 
+               id="search" 
+               placeholder="Search or add new task (press Enter to add)">
+        <div class="error" id="error">Task cannot be empty!</div>
+
+        <div class="tasks-section">
+            <h3>Pinned</h3>
+            <div id="pinned-tasks"></div>
+            <div id="no-pinned">No pinned tasks</div>
+        </div>
+
+        <div class="tasks-section">
+            <h3>All Tasks</h3>
+            <div id="all-tasks"></div>
+            <div id="no-tasks">No tasks found</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.error {
+  color: red;
+  margin: 5px 0;
+  display: none;
+}
+
+.tasks-section {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background: #f5f5f5;
+  border-radius: 3px;
+}
+
+.pin-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #666;
+  margin-left: auto;
+  cursor: pointer;
+  background: white;
+}
+
+.pin-btn.pinned {
+  background: #4CAF50;
+  border-color: #4CAF50;
+}
+
+#search {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
